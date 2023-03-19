@@ -82,17 +82,33 @@ Having split the data into train (~90%), test (~5%) and validation sets (~5%), I
 * xgboost boosted regressor optimized with GridSearchCV
 
 
+The training and validation are shown for the tf neural network (5 layers each with 128 neurons, relu activations with l2 reg.):
+![alt-text-1](/images/loss.png)
+
+A comparison of the performance of the models on the train and validation sets is shown below for a range of metrics including:
+* the mean absolute error
+* the r2 score
+* the mean absolute percentage error
+
+The xgboost regressor with optimal hyperparameters (tree depth =, learning rate =, number of trees) performs the best with the tensor flow neural network close behind.
+
 <p float="left">
   <img src="images/abs_percentage_models.png" width="600" />
 </p>
-
-## Final result
-
-The xgboost regressor achieves ~1% error on the test dataset and ~1% error on the validation dataset. Below the distribution of the absolute percentage error and the predicted house price vs the truth price scatter plot are shown.
+<p float="left">
+  <img src="images/abs_models.png" width="600" />
+</p>
 
 <p float="left">
-  <img src="images/xgboost_perf.png" width="500" />
-  <img src="images/predict_vs_true.png" width="500" />
+  <img src="images/r2_models.png" width="600" />
+</p>
+## Final result
+
+The optimized xgboost regressor achieves ~1% error on the test dataset and ~1% error on the validation dataset. Below the distribution of the absolute percentage error and the predicted house price vs the truth price scatter plot are shown.
+
+<p float="left">
+  <img src="images/xgboost_perf.png" width="600" />
+  <img src="images/predict_vs_true.png" width="600" />
 </p>
 
 
