@@ -54,19 +54,21 @@ the property type I used seaborn violin plots to better understand the distribut
 
 <p float="left">
   <img src="images/price_vs_area.png" width="400" />
-  <img src="images/price_vs_distance.png" width="400" />
+  <img src="images/price_vs_dist.png" width="400" />
 </p>
 
 <p float="left">
   <img src="images/type_violin.png" width="600" />
 </p>
 
-<p float="left">
-  <img src="images/xgboost_perf.png" width="400" />
-  <img src="images/predict_vs_true.png" width="400" />
-</p>
+The plot below summarises the dependence of several numerical features on one another.
 
 ![alt-text-1](/images/AllPlots.png)
+
+
+In order to visulaize the dependence on GPS location. I plotted the properties on top of a map of london using geopandas. 
+The price of the properties is represented by the size and hue of the points with larger and lighter in colour representing a
+higher price. Clearly properties in central London in specific districts like Chelsea and South Kensington are higher in price. 
 
 ![alt-text-1](/images/london.png)
 
@@ -89,12 +91,11 @@ Having split the data into train (~90%), test (~5%) and validation sets (~5%), I
 The xgboost regressor achieves ~1% error on the test dataset and ~1% error on the validation dataset. Below the distribution of the absolute percentage error and the predicted house price vs the truth price scatter plot are shown.
 
 <p float="left">
-  <img src="images/xgboost_perf.png" width="400" />
-  <img src="images/predict_vs_true.png" width="400" />
+  <img src="images/xgboost_perf.png" width="500" />
+  <img src="images/predict_vs_true.png" width="500" />
 </p>
 
 
-Finally, the most important features are shown in the plot below. Unsuprisingly the most important features are number of bedrooms and the area of the property. 
 
 
 
