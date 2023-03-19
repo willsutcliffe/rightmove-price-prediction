@@ -70,7 +70,7 @@ In order to visulaize the dependence on GPS location. I plotted the properties o
 The price of the properties is represented by the size and hue of the points with larger and lighter in colour representing a
 higher price. Clearly properties in central London in specific districts like Chelsea and South Kensington are higher in price. 
 
-![alt-text-1](/images/london.png)
+![alt-text-1](/images/london_2.png)
 
 ## Model building
 
