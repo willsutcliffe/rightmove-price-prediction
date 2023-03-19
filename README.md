@@ -66,7 +66,9 @@ Having split the data into train (~90%), test (~5%) and validation sets (~5%), I
 * xgboost boosted regressor optimized with GridSearchCV
 
 
-![alt-text-1](/images/abs_percentage_models.png)
+<p float="left">
+  <img src="images/abs_percentage_models.png" width="600" />
+</p>
 
 ## Final result
 
@@ -76,8 +78,6 @@ The xgboost regressor achieves ~1% error on the test dataset and ~1% error on th
   <img src="images/xgboost_perf.png" width="400" />
   <img src="images/predict_vs_true.png" width="400" />
 </p>
-
-
 
 
 Finally, the most important features are shown in the plot below. Unsuprisingly the most important features are number of bedrooms and the area of the property. 
