@@ -52,6 +52,20 @@ I visualized the data using matplotlib and seaborn with a variety of data visual
 plotting basic histograms and seaborn regression plots demonstrating the dependence of price on each of the features. Meanwhile, for categorical data such as
 the property type I used seaborn violin plots to better understand the distribution of price for each property type. (see Last\_preprocessing\_and\_final\_analysis.ipynb)
 
+<p float="left">
+  <img src="images/price_vs_area.png" width="400" />
+  <img src="images/price_vs_distance.png" width="400" />
+</p>
+
+<p float="left">
+  <img src="images/type_violin.png" width="600" />
+</p>
+
+<p float="left">
+  <img src="images/xgboost_perf.png" width="400" />
+  <img src="images/predict_vs_true.png" width="400" />
+</p>
+
 ![alt-text-1](/images/AllPlots.png)
 
 ![alt-text-1](/images/london.png)
