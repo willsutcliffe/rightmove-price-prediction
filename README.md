@@ -73,8 +73,8 @@ Having split the data into train (~90%), test (~5%) and validation sets (~5%), I
 The xgboost regressor achieves ~1% error on the test dataset and ~1% error on the validation dataset. Below the distribution of the absolute percentage error and the predicted house price vs the truth price scatter plot are shown.
 
 <p float="left">
-  <img src="images/xgboost_perf.png" width="300" />
-  <img src="images/predict_vs_true.png" width="300" />
+  <img src="images/xgboost_perf.png" width="400" />
+  <img src="images/predict_vs_true.png" width="400" />
 </p>
 
 
